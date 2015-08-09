@@ -1,1 +1,1 @@
-This is a sample project demonstrating how to perform on-the-fly reverse playback of streamed iPod Library tracks in iOS. See companion post at http://www.mojolama.com/streaming-ipod-library-tracks.
+This is a sample project demonstrating how to perform on-the-fly reverse playback of streamed iPod Library tracks in iOS. See companion post at http://www.mojolama.com/looping-reversing-audio-streams.
