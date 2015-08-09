@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6491B7971B6EA37400022751 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6491B7961B6EA37400022751 /* AppDelegate.swift */; };
+		6491B7991B6EA37400022751 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6491B7981B6EA37400022751 /* ViewController.swift */; };
+		6491B79C1B6EA37400022751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6491B79A1B6EA37400022751 /* Main.storyboard */; };
+		6491B79E1B6EA37400022751 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6491B79D1B6EA37400022751 /* Images.xcassets */; };
+		6491B7A11B6EA37400022751 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6491B79F1B6EA37400022751 /* LaunchScreen.xib */; };
+		6491B7AD1B6EA37500022751 /* ReverseAudioStreamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6491B7AC1B6EA37500022751 /* ReverseAudioStreamsTests.swift */; };
+		6491B7BB1B6EA38C00022751 /* FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6491B7B81B6EA38C00022751 /* FileReader.m */; };
+		6491B7CB1B6FB3B900022751 /* Output.m in Sources */ = {isa = PBXBuildFile; fileRef = 6491B7CA1B6FB3B900022751 /* Output.m */; };
+		6491B8101B6FBC8700022751 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6491B80F1B6FBC8700022751 /* Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6491B7A71B6EA37500022751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6491B7891B6EA37400022751 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6491B7901B6EA37400022751;
+			remoteInfo = ReverseAudioStreams;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6491B7911B6EA37400022751 /* ReverseAudioStreams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverseAudioStreams.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6491B7951B6EA37400022751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6491B7961B6EA37400022751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6491B7981B6EA37400022751 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6491B79B1B6EA37400022751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6491B79D1B6EA37400022751 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6491B7A01B6EA37400022751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6491B7A61B6EA37500022751 /* ReverseAudioStreamsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverseAudioStreamsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6491B7AB1B6EA37500022751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6491B7AC1B6EA37500022751 /* ReverseAudioStreamsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseAudioStreamsTests.swift; sourceTree = "<group>"; };
+		6491B7B61B6EA38B00022751 /* ReverseAudioStreams-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReverseAudioStreams-Bridging-Header.h"; sourceTree = "<group>"; };
+		6491B7B71B6EA38C00022751 /* FileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileReader.h; sourceTree = "<group>"; };
+		6491B7B81B6EA38C00022751 /* FileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileReader.m; sourceTree = "<group>"; };
+		6491B7C91B6FB3B900022751 /* Output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Output.h; sourceTree = "<group>"; };
+		6491B7CA1B6FB3B900022751 /* Output.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Output.m; sourceTree = "<group>"; };
+		6491B80E1B6FBC8700022751 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		6491B80F1B6FBC8700022751 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6491B78E1B6EA37400022751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6491B7A31B6EA37500022751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6491B7881B6EA37400022751 = {
+			isa = PBXGroup;
+			children = (
+				6491B7931B6EA37400022751 /* ReverseAudioStreams */,
+				6491B7A91B6EA37500022751 /* ReverseAudioStreamsTests */,
+				6491B7921B6EA37400022751 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6491B7921B6EA37400022751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6491B7911B6EA37400022751 /* ReverseAudioStreams.app */,
+				6491B7A61B6EA37500022751 /* ReverseAudioStreamsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6491B7931B6EA37400022751 /* ReverseAudioStreams */ = {
+			isa = PBXGroup;
+			children = (
+				6491B7961B6EA37400022751 /* AppDelegate.swift */,
+				6491B7981B6EA37400022751 /* ViewController.swift */,
+				6491B79A1B6EA37400022751 /* Main.storyboard */,
+				6491B7BD1B6EA39300022751 /* MOJO File Player */,
+				6491B7C51B6EA3D100022751 /* Utilities */,
+				6491B79D1B6EA37400022751 /* Images.xcassets */,
+				6491B79F1B6EA37400022751 /* LaunchScreen.xib */,
+				6491B7941B6EA37400022751 /* Supporting Files */,
+				6491B7B61B6EA38B00022751 /* ReverseAudioStreams-Bridging-Header.h */,
+			);
+			path = ReverseAudioStreams;
+			sourceTree = "<group>";
+		};
+		6491B7941B6EA37400022751 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6491B7951B6EA37400022751 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6491B7A91B6EA37500022751 /* ReverseAudioStreamsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6491B7AC1B6EA37500022751 /* ReverseAudioStreamsTests.swift */,
+				6491B7AA1B6EA37500022751 /* Supporting Files */,
+			);
+			path = ReverseAudioStreamsTests;
+			sourceTree = "<group>";
+		};
+		6491B7AA1B6EA37500022751 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6491B7AB1B6EA37500022751 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6491B7BD1B6EA39300022751 /* MOJO File Player */ = {
+			isa = PBXGroup;
+			children = (
+				6491B7B71B6EA38C00022751 /* FileReader.h */,
+				6491B7B81B6EA38C00022751 /* FileReader.m */,
+				6491B7C91B6FB3B900022751 /* Output.h */,
+				6491B7CA1B6FB3B900022751 /* Output.m */,
+			);
+			name = "MOJO File Player";
+			sourceTree = "<group>";
+		};
+		6491B7C51B6EA3D100022751 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6491B80E1B6FBC8700022751 /* Utilities.h */,
+				6491B80F1B6FBC8700022751 /* Utilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6491B7901B6EA37400022751 /* ReverseAudioStreams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6491B7B01B6EA37500022751 /* Build configuration list for PBXNativeTarget "ReverseAudioStreams" */;
+			buildPhases = (
+				6491B78D1B6EA37400022751 /* Sources */,
+				6491B78E1B6EA37400022751 /* Frameworks */,
+				6491B78F1B6EA37400022751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReverseAudioStreams;
+			productName = ReverseAudioStreams;
+			productReference = 6491B7911B6EA37400022751 /* ReverseAudioStreams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6491B7A51B6EA37500022751 /* ReverseAudioStreamsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6491B7B31B6EA37500022751 /* Build configuration list for PBXNativeTarget "ReverseAudioStreamsTests" */;
+			buildPhases = (
+				6491B7A21B6EA37500022751 /* Sources */,
+				6491B7A31B6EA37500022751 /* Frameworks */,
+				6491B7A41B6EA37500022751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6491B7A81B6EA37500022751 /* PBXTargetDependency */,
+			);
+			name = ReverseAudioStreamsTests;
+			productName = ReverseAudioStreamsTests;
+			productReference = 6491B7A61B6EA37500022751 /* ReverseAudioStreamsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6491B7891B6EA37400022751 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Abel Domingues";
+				TargetAttributes = {
+					6491B7901B6EA37400022751 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					6491B7A51B6EA37500022751 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 6491B7901B6EA37400022751;
+					};
+				};
+			};
+			buildConfigurationList = 6491B78C1B6EA37400022751 /* Build configuration list for PBXProject "ReverseAudioStreams" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6491B7881B6EA37400022751;
+			productRefGroup = 6491B7921B6EA37400022751 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6491B7901B6EA37400022751 /* ReverseAudioStreams */,
+				6491B7A51B6EA37500022751 /* ReverseAudioStreamsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6491B78F1B6EA37400022751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6491B79C1B6EA37400022751 /* Main.storyboard in Resources */,
+				6491B7A11B6EA37400022751 /* LaunchScreen.xib in Resources */,
+				6491B79E1B6EA37400022751 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6491B7A41B6EA37500022751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6491B78D1B6EA37400022751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6491B8101B6FBC8700022751 /* Utilities.m in Sources */,
+				6491B7991B6EA37400022751 /* ViewController.swift in Sources */,
+				6491B7971B6EA37400022751 /* AppDelegate.swift in Sources */,
+				6491B7CB1B6FB3B900022751 /* Output.m in Sources */,
+				6491B7BB1B6EA38C00022751 /* FileReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6491B7A21B6EA37500022751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6491B7AD1B6EA37500022751 /* ReverseAudioStreamsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6491B7A81B6EA37500022751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6491B7901B6EA37400022751 /* ReverseAudioStreams */;
+			targetProxy = 6491B7A71B6EA37500022751 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6491B79A1B6EA37400022751 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6491B79B1B6EA37400022751 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6491B79F1B6EA37400022751 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6491B7A01B6EA37400022751 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6491B7AE1B6EA37500022751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6491B7AF1B6EA37500022751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6491B7B11B6EA37500022751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ReverseAudioStreams/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReverseAudioStreams/ReverseAudioStreams-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6491B7B21B6EA37500022751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ReverseAudioStreams/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReverseAudioStreams/ReverseAudioStreams-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6491B7B41B6EA37500022751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReverseAudioStreamsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReverseAudioStreams.app/ReverseAudioStreams";
+			};
+			name = Debug;
+		};
+		6491B7B51B6EA37500022751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReverseAudioStreamsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReverseAudioStreams.app/ReverseAudioStreams";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6491B78C1B6EA37400022751 /* Build configuration list for PBXProject "ReverseAudioStreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6491B7AE1B6EA37500022751 /* Debug */,
+				6491B7AF1B6EA37500022751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6491B7B01B6EA37500022751 /* Build configuration list for PBXNativeTarget "ReverseAudioStreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6491B7B11B6EA37500022751 /* Debug */,
+				6491B7B21B6EA37500022751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6491B7B31B6EA37500022751 /* Build configuration list for PBXNativeTarget "ReverseAudioStreamsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6491B7B41B6EA37500022751 /* Debug */,
+				6491B7B51B6EA37500022751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6491B7891B6EA37400022751 /* Project object */;
+}
