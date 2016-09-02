@@ -121,8 +121,12 @@
         [self reverseContentsOfBuffer:revBuff numberOfFrames:frames];
       }
       _frameIndex -= frames; // decrement frame index
+      if (_frameIndex < 0) { // check for out of bounds
+        _frameIndex = 0;
+      }
     } else {
       _frameIndex += frames; // increment frame index
+      // TODO: here should be check also for out of bounds, to avoid error kExtAudioFileError_InvalidSeek
     }
     
     // we're done reading
