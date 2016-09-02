@@ -126,7 +126,7 @@
       }
     } else {
       _frameIndex += frames; // increment frame index
-      // TODO: I belive here should be check also for out of bounds, to avoid error kExtAudioFileError_InvalidSeek
+      // TODO: here should be check also for out of bounds, to avoid error kExtAudioFileError_InvalidSeek
     }
     
     // we're done reading
